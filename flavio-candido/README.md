@@ -1,27 +1,19 @@
-# FlavioCandido
+# Escritório de Engenharia Elétrica - Single Page Application (SPA) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+Bem-vindo ao repositório do projeto de uma SPA para um escritório de engenharia elétrica. Esta SPA foi desenvolvida usando o framework Angular e tem como objetivo mostrar os projetos, os serviços prestados, parcerias e informações de contato do escritório.
 
-## Development server
+## Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma aplicação web interativa que oferece informações sobre o escritório de engenharia elétrica de forma organizada e amigável. Ele é dividido em várias seções principais:
 
-## Code scaffolding
+- **Projetos:** Nesta seção, você encontrará detalhes sobre os projetos anteriores e atuais conduzidos pelo escritório de engenharia elétrica. As informações incluem descrições, imagens e outros dados relevantes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Serviços Prestados:** Aqui, você poderá explorar os serviços oferecidos pelo escritório, com descrições detalhadas de cada serviço e informações sobre como solicitar ou obter mais informações.
 
-## Build
+- **Parcerias:** Esta seção destaca as parcerias estratégicas e colaborações do escritório de engenharia elétrica com outras empresas ou organizações.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Contato:** Fornece informações de contato, incluindo endereço, telefone e um formulário de contato para que os visitantes possam entrar em contato com o escritório.
 
-## Running unit tests
+## Tecnologias Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular: O framework Angular foi escolhido para o desenvolvimento da SPA devido à sua robustez e capacidade de criar interfaces de usuário dinâmicas e interativas.
