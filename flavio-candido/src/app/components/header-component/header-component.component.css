@@ -1,0 +1,38 @@
+.header-cont{
+  display: flex;
+  color: var(--white);
+  background-color: var(--primary);
+  align-items: center;
+  justify-content: center;
+}
+
+.links-header{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links-header a {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links-header a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary);
+  transition: width 0.3s ease;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.links-header a:hover::before {
+  width: 100%;
+}
