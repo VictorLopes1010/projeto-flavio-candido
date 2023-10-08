@@ -8,11 +8,17 @@ import { MainPage } from './pages/main-page/main-page.component';
 
 import { HeaderComponent } from './components/header-component/header-component.component';
 
+import { IntroMainPageComponent } from './components/intro-main-page-component/intro-main-page.component';
+
+import { OurServices } from './components/our-services-component/our-services';
+
 @NgModule({
   declarations: [
     AppComponent,
     MainPage,
-    HeaderComponent
+    HeaderComponent,
+    IntroMainPageComponent,
+    OurServices
   ],
   imports: [
     BrowserModule,
