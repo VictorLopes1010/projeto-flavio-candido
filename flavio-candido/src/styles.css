@@ -12,3 +12,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.text-title-section{
+  font-family: 'Montserrat';
+  color: var(--primary);
+  font-weight: 250;
+  font-size: 64px;
+}
+
+.text-title-sub-section{
+  font-family: 'Montserrat';
+  color: var(--primary);
+  font-weight: 250;
+  font-size: 36px;
+}

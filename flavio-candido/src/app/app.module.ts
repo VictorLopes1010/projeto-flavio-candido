@@ -12,13 +12,16 @@ import { IntroMainPageComponent } from './components/intro-main-page-component/i
 
 import { OurServices } from './components/our-services-component/our-services';
 
+import { SpecifiedServices } from './components/specified-services-component/specified-services.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     MainPage,
     HeaderComponent,
     IntroMainPageComponent,
-    OurServices
+    OurServices,
+    SpecifiedServices
   ],
   imports: [
     BrowserModule,
