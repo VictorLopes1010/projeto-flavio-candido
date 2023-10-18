@@ -1,7 +1,19 @@
 <div class="specified-services-all-cont">
   <div class="specified-services-cont">
-    <div class="txt-title">
+    <div class="txt-title" style="margin-bottom: 40px;">
       <p class="text-title-sub-section">Serviços específicos</p>
+    </div>
+    <div class="specified-services-list" *ngFor="let service of services">
+      <div class="block-title-cont">
+        <mat-icon class="icon-specified-service material-symbols-outlined">{{service.icon}}</mat-icon>
+        <p>{{ service.title }}</p>
+      </div>
+      <div class="specified-sub-services-list" *ngFor="let subService of service.services">
+        <div class="rectangle-sub-title-cont">
+          <div class="circle"></div>
+          <p style="margin-bottom: 0!important;">{{ subService.servicesName }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
