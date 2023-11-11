@@ -16,6 +16,10 @@ import { SpecifiedServices } from './components/specified-services-component/spe
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {CarouselPortfolioComponent } from './components/carousel-portfolio/carousel-portfolio.component';
+import {SwiperModule} from 'swiper/angular'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +27,16 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     IntroMainPageComponent,
     OurServices,
-    SpecifiedServices
+    SpecifiedServices,
+    CarouselPortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
