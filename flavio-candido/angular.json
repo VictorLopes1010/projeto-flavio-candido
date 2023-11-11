@@ -26,9 +26,14 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/styles.css",
+              "node_modules/swiper/swiper-bundle.min.css",
+              "node_modules/swiper/components/navigation/navigation.min.css",
+              "node_modules/swiper/components/pagination/pagination.min.css",
+              "node_modules/swiper/components/scrollbar/scrollbar.min.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
           },
           "configurations": {
             "production": {
