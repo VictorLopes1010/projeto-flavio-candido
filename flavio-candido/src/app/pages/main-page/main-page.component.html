@@ -9,7 +9,7 @@
       <img width="35px" src="../../../assets/images/logos/LOGOWPPWHITE.png"/>
     </div>
     <div *ngIf="isMouseOverTxt" [ngClass]="{ 'textarea-mouse-over': isMouseOverTxt, 'textarea-mouse-out': !isMouseOverTxt }">
-      <p>Digite a mensagem que deseja enviar!</p>
+      <p>Digite a mensagem que deseja enviar</p>
       <textarea [(ngModel)]="mensagem"></textarea>
       <button (click)="enviarParaWpp()" type="submit">Enviar</button>
     </div>
