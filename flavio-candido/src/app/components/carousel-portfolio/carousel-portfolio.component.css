@@ -1,0 +1,13 @@
+.carousel-portfolio-all-cont{
+  padding: 65px;
+}
+.carousel-inner img {
+  max-width: 1200px;
+  min-width: 1200px;
+  height: 700px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}

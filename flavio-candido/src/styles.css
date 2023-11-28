@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "src/styles.css";
+@import '~swiper/swiper-bundle.min.css';
+
+
+
+:root {
+  --primary: #1C2C64;
+  --secondary: #B08E2E;
+  --white: #FFFFFF
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-title-section{
+  font-family: 'Montserrat';
+  color: var(--primary);
+  font-weight: 250;
+  font-size: 64px;
+}
+
+.text-title-sub-section{
+  font-family: 'Montserrat';
+  color: var(--primary);
+  font-weight: 250;
+  font-size: 36px;
+}
+p{
+  font-family: 'Montserrat';
+  margin-bottom: 0!important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
