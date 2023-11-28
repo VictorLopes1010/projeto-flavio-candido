@@ -14,11 +14,13 @@ import { OurServices } from './components/our-services-component/our-services';
 
 import { SpecifiedServices } from './components/specified-services-component/specified-services.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {CarouselPortfolioComponent } from './components/carousel-portfolio/carousel-portfolio.component';
-import {SwiperModule} from 'swiper/angular'
+import { PortfolioComponentComponent } from './components/portfolio-component/portfolio-component.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import {SwiperModule} from 'swiper/angular'
     IntroMainPageComponent,
     OurServices,
     SpecifiedServices,
-    CarouselPortfolioComponent
+    CarouselPortfolioComponent,
+    PortfolioComponentComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import {SwiperModule} from 'swiper/angular'
     BrowserAnimationsModule,
     MatIconModule,
     MatTooltipModule,
-    SwiperModule
+    CarouselModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
