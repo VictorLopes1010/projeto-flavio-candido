@@ -1,7 +1,21 @@
 <div class="main-page-all">
   <app-header-component></app-header-component>
+  <div style="cursor: pointer;"
+    (mouseenter)="isMouseOver = true; openTextArea()"
+    (mouseleave)="isMouseOver = false; isMouseOverTxt = false"
+    [ngClass]="{ 'classe-mouse-over': isMouseOver, 'classe-mouse-out': !isMouseOver }"
+  >
+    <div class="wpp-contact-float">
+      <img width="35px" src="../../../assets/images/logos/LOGOWPPWHITE.png"/>
+    </div>
+    <div *ngIf="isMouseOverTxt" [ngClass]="{ 'textarea-mouse-over': isMouseOverTxt, 'textarea-mouse-out': !isMouseOverTxt }">
+      <p>Digite a mensagem que deseja enviar</p>
+      <textarea [(ngModel)]="mensagem"></textarea>
+      <button (click)="enviarParaWpp()" type="submit">Enviar</button>
+    </div>
+  </div>
   <app-intro-main-page></app-intro-main-page>
   <app-our-services></app-our-services>
   <app-specified-services></app-specified-services>
-  <app-carousel-portfolio></app-carousel-portfolio>
+  <app-portfolio-component></app-portfolio-component>
 </div>
