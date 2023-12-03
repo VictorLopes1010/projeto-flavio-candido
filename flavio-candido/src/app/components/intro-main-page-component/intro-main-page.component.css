@@ -49,3 +49,37 @@
 .image-advertising-cont img{
   width: 100%;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .firt-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .image-intro-main{
+    width: auto!important;
+  }
+  .image-intro-main img{
+    width: 45%!important;
+  }
+  .text-intro-main{
+    width: auto!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .buttons-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

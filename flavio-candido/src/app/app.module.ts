@@ -10,7 +10,7 @@ import { HeaderComponent } from './components/header-component/header-component.
 
 import { IntroMainPageComponent } from './components/intro-main-page-component/intro-main-page.component';
 
-import { OurServices } from './components/our-services-component/our-services';
+import { OurServices } from './components/our-services-component/our-services.component';
 
 import { SpecifiedServices } from './components/specified-services-component/specified-services.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,6 +21,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {CarouselPortfolioComponent } from './components/carousel-portfolio/carousel-portfolio.component';
 import { PortfolioComponentComponent } from './components/portfolio-component/portfolio-component.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { PartnershipComponent } from './components/partnership-component/partnership-component.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     SpecifiedServices,
     CarouselPortfolioComponent,
     PortfolioComponentComponent,
+    PartnershipComponent,
   ],
   imports: [
     BrowserModule,
