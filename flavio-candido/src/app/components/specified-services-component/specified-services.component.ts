@@ -191,7 +191,7 @@ export class SpecifiedServices implements OnInit{
   ]
 
   ngOnInit(): void {
-    setInterval(() => this.toggleRandomService(), 3500);
+    setInterval(() => this.toggleRandomService(), 2500);
   }
 
   constructor(){
