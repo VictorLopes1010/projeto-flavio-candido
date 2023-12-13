@@ -19,7 +19,7 @@
   color: var(--primary);
   font-weight: 250;
 }
-.buttons-icon{
+.buttons-icon-cont{
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
 }
-.buttons-icon button{
+.buttons-icon{
   background-color: var(--secondary);
   color: var(--white);
   font-family: 'Montserrat';
@@ -49,6 +49,16 @@
 .image-advertising-cont img{
   width: 100%;
 }
+.buttons-icon a{
+  display: flex;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -61,7 +71,7 @@
     width: auto!important;
   }
   .image-intro-main img{
-    width: 45%!important;
+    width: 50%!important;
   }
   .text-intro-main{
     width: auto!important;
@@ -76,10 +86,13 @@
     justify-content: center;
     text-align: center;
   }
-  .buttons-icon{
+  .buttons-icon-cont{
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 20px;
+  }
+  .second-sction{
+    display: none;
   }
 }

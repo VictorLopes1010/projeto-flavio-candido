@@ -1,0 +1,8 @@
+.all-contact-cont{
+  padding: 65px;
+}
+@media screen and (max-width: 1000px) {
+  .all-contact-cont{
+    padding: 15px!important;
+  }
+}
