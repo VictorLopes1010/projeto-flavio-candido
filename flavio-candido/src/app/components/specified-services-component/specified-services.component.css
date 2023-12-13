@@ -69,3 +69,9 @@
   object-fit: cover;
   width: 200px;
 }
+
+@media screen and (max-width: 1000px) {
+  .specified-services-all-cont{
+    padding: 15px!important;
+  }
+}

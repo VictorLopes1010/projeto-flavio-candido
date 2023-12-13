@@ -16,7 +16,11 @@
   width: 25%;
 }
 
-
+@media screen and (max-width: 1000px) {
+  .all-partnerhsip-cont{
+    padding: 15px!important;
+  }
+}
 @media screen and (max-width: 800px) {
   .image-container img{
     width: 85%;

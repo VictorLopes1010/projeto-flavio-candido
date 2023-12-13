@@ -7,25 +7,32 @@ import { Component, OnInit } from "@angular/core";
 })
 
 export class HeaderComponent implements OnInit {
-  linksHeader: Array<{ nome: string;}> = [
+  linksHeader: Array<{ nome: string; targetId: string; }> = [
     {
       nome: 'INÍCIO',
+      targetId: 'inicio',
     },
     {
       nome: 'SERVIÇOS',
+      targetId: 'servicos',
     },
     {
       nome: 'PORTFÓLIO',
+      targetId: 'portfolio',
     },
     {
       nome: 'PARCEIROS',
+      targetId: 'parceiros',
     },
     {
       nome: 'CONTATO',
+      targetId: 'contato',
     },
   ];
 
   ngOnInit(): void {}
 
   constructor() {}
+
+
 }
