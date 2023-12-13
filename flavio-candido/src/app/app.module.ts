@@ -22,6 +22,7 @@ import {CarouselPortfolioComponent } from './components/carousel-portfolio/carou
 import { PortfolioComponentComponent } from './components/portfolio-component/portfolio-component.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { PartnershipComponent } from './components/partnership-component/partnership-component.component';
+import { ContactComponent } from './components/contact-component/contact-componente.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PartnershipComponent } from './components/partnership-component/partner
     CarouselPortfolioComponent,
     PortfolioComponentComponent,
     PartnershipComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
