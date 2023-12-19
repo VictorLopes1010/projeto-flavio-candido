@@ -6,3 +6,13 @@
     padding: 15px!important;
   }
 }
+
+.contact-form{
+  display: flex;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+.contact-form mat-icon{
+  transform: scale(1.2);
+  margin-right: 15px;
+}
