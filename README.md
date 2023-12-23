@@ -17,3 +17,7 @@ Este projeto é uma aplicação web interativa que oferece informações sobre o
 ## Tecnologias Utilizadas
 
 - Angular: O framework Angular foi escolhido para o desenvolvimento da SPA devido à sua robustez e capacidade de criar interfaces de usuário dinâmicas e interativas.
+
+## Projeto Hospedado
+
+- Acompanhe este projeto em: https://www.flaviocandidoprojetos.com/.
