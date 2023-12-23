@@ -52,11 +52,22 @@
   box-sizing: border-box;
   font-family: 'Montserrat';
 }
+.input-group textarea{
+  resize: none;
+  height: 115px;
+}
 .input-group button{
   width: 100%;
   height: 35px;
-  border: none;
+  border: 1px white solid;
   font-size: 20px;
   font-weight: lighter;
   font-family: 'Montserrat';
+  background-color: transparent;
+  color: white;
+}
+.input-group button:hover{
+  background-color: white;
+  color: var(--primary);
+  transition: .5s ease-in-out;
 }

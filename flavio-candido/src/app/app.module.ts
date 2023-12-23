@@ -23,6 +23,7 @@ import { PortfolioComponentComponent } from './components/portfolio-component/po
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { PartnershipComponent } from './components/partnership-component/partnership-component.component';
 import { ContactComponent } from './components/contact-component/contact-componente.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,8 @@ import { ContactComponent } from './components/contact-component/contact-compone
     BrowserAnimationsModule,
     MatIconModule,
     MatTooltipModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
     CarouselModule,
     FormsModule,
   ],
