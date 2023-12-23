@@ -24,6 +24,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { PartnershipComponent } from './components/partnership-component/partnership-component.component';
 import { ContactComponent } from './components/contact-component/contact-componente.component';
 import { ToastrModule } from 'ngx-toastr';
+import { FooterComponent } from './components/footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ToastrModule } from 'ngx-toastr';
     CarouselPortfolioComponent,
     PortfolioComponentComponent,
     PartnershipComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
