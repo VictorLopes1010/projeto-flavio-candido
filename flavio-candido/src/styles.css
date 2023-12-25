@@ -24,12 +24,19 @@
   font-weight: 250;
   font-size: 64px;
 }
-
 .text-title-sub-section{
   font-family: 'Montserrat';
   color: var(--primary);
   font-weight: 250;
   font-size: 36px;
+}
+@media screen and (max-width:1000px){
+  .text-title-section{
+    font-size: 40px;
+  }
+  .text-title-sub-section{
+    font-size: 28px;
+  }
 }
 p{
   font-family: 'Montserrat';

@@ -1,12 +1,12 @@
 .all-contact-cont{
   padding: 65px;
 }
-@media screen and (max-width: 1000px) {
-  .all-contact-cont{
-    padding: 15px!important;
-  }
-}
 
+.contact-forms{
+  width: 50%;
+  padding: 20px;
+  border: 1px var(--primary) solid;
+}
 .contact-form{
   display: flex;
   font-size: 19px;
@@ -70,4 +70,30 @@
   background-color: white;
   color: var(--primary);
   transition: .5s ease-in-out;
+}
+@media screen and (max-width: 1000px) {
+  .all-contact-cont{
+    padding: 15px!important;
+  }
+  .contact-forms{
+    width: 100%;
+    padding: 10px!important;
+  }
+  .contact-form{
+    font-size: 17px;
+  }
+  .menssage-cont{
+    width: 100%;
+  }
+  .contact-and-menssage-cont{
+    flex-direction: column;
+  }
+  .inputs-cont{
+    width: 100%;
+  }
+  .info-contact-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
