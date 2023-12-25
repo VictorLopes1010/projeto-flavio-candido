@@ -1,0 +1,9 @@
+#all-portfolio-cont{
+  padding: 65px;
+}
+
+@media screen and (max-width: 1000px) {
+  #all-portfolio-cont{
+    padding: 15px!important;
+  }
+}

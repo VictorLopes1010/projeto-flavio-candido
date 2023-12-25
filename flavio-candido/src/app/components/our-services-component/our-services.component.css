@@ -34,5 +34,8 @@
   .all-our-services-cont{
     padding: 15px!important;
   }
+  .service-text{
+    font-size: clamp(1rem, 1vw + 0.3043rem, 1rem);
+  }
 }
 

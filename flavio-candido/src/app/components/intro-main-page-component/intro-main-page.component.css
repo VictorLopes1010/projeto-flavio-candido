@@ -43,6 +43,9 @@
   margin-right:  20px;
   cursor: pointer;
 }
+.buttons-icon:hover{
+  background-color: #d1b76e;
+}
 .image-advertising-cont{
   width: 100%;
 }
@@ -94,5 +97,10 @@
   }
   .second-sction{
     display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .image-intro-main img{
+    width: 54%!important;
   }
 }
