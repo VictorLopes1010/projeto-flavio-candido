@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { MethodsUtils } from 'src/app/Methods/Methods.utils';
 
 @Component({
   selector: 'app-carousel-portfolio',
@@ -20,13 +21,13 @@ export class CarouselPortfolioComponent {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 2
       },
       940: {
-        items: 3
+        items: 2
       },
     },
     nav: true
@@ -49,4 +50,8 @@ export class CarouselPortfolioComponent {
       informacao: "Posto de Combustível - Vila Beneves - Contagem/MG. Projeto de Instalações Elétricas, Projeto de Instalações de Telecomunicações."
     },
   ]
+
+  tamanhoTela(){
+    return MethodsUtils.getSizePage()
+  }
 }
