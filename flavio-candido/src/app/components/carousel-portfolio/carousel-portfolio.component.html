@@ -1,7 +1,7 @@
 <div class="carousel-portfolio-all-cont" style="cursor: pointer;">
   <owl-carousel-o [options]="customOptions">
     <ng-template carouselSlide *ngFor="let info of infoImagens">
-      <div class="all-info-cont" style="width: 95%; height: 700px;">
+      <div class="all-info-cont" [style]="tamanhoTela() >= 1000 ? 'width: 95%; height: 700px;' : 'width: 10%; height: 700px;' ">
         <div class="image-cont">
           <img src="{{info.caminho}}" style="object-fit: cover; height: 600px;">
         </div>
