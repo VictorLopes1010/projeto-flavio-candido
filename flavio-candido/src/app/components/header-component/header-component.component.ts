@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { MethodsUtils } from "src/app/Methods/Methods.utils";
 
 @Component({
   selector: 'app-header-component',
@@ -6,7 +7,12 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ['./header-component.component.css']
 })
 
+
+
 export class HeaderComponent implements OnInit {
+
+  isMobileHeaderVisible = false;
+
   linksHeader: Array<{ nome: string; targetId: string; }> = [
     {
       nome: 'INÍCIO',
@@ -32,7 +38,16 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  constructor() {}
+  tamanhoTela(){
+    console.log(MethodsUtils.getSizePage())
+    return MethodsUtils.getSizePage();
+  }
 
+  showMobileHeader() {
+    this.isMobileHeaderVisible = true;
+  }
 
+  hideMobileHeader() {
+    this.isMobileHeaderVisible = false;
+  }
 }

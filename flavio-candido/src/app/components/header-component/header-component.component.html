@@ -1,10 +1,27 @@
-<div class="header-cont-all">
+<div class="header-cont-all" *ngIf="tamanhoTela() >= 1000">
   <div class="header-cont">
     <div class="logo-header">
       <img width="125px" src="../../../assets//images/logos/LOGOTIPO 2 - Dourada_page-0001 1.svg">
     </div>
     <div class="links-header">
       <a *ngFor="let item of linksHeader" href="#{{item.targetId}}">{{item.nome}}</a>
+    </div>
+  </div>
+</div>
+
+
+<div style="display: flex;" *ngIf="tamanhoTela() < 1000" class="fixed-icon" (click)="showMobileHeader()">
+  <mat-icon style="margin: 5px; transform: scale(1.2);" class="material-symbols-outlined">menu</mat-icon>
+</div>
+<div *ngIf="tamanhoTela() < 1000" [ngClass]="{'visible': isMobileHeaderVisible, 'invisible': !isMobileHeaderVisible}">
+  <div class="header-cont-mobile">
+    <div class="header-mobile">
+      <div (click)="hideMobileHeader()" style="display: flex; justify-content: flex-end; color: white;">
+        <mat-icon class="material-symbols-outlined">close</mat-icon>
+      </div>
+      <div class="links-header">
+        <a *ngFor="let item of linksHeader" href="#{{item.targetId}}"> - {{item.nome}}</a>
+      </div>
     </div>
   </div>
 </div>
