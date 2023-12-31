@@ -37,3 +37,44 @@
 .links-header a:hover::before {
   width: 100%;
 }
+
+.header-cont-mobile .links-header{
+  display: flex;
+  flex-direction: column;
+  color: white
+}
+.header-cont-mobile .links-header a{
+  margin: 10px 0 10px 5px;
+}
+
+@media screen and (max-width:999px){
+  .invisible{
+    position: absolute;
+    z-index: 9;
+    background: var(--primary);
+    width: 50%;
+    height: 30vh;
+    left: -50%;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+
+.fixed-icon{
+  color: white;
+  background-color: var(--primary);
+}
+
+.visible {
+  position: absolute;
+  z-index: 9;
+  background: var(--primary);
+  width: 50%;
+  height: 30vh;
+  transition: 0.5s ease-in-out;
+  left: 0!important;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: 12px 5px 19px -6px rgba(0,0,0,0.44);
+  -moz-box-shadow: 12px 5px 19px -6px rgba(0,0,0,0.44);
+  box-shadow: 12px 5px 19px -6px rgba(0,0,0,0.44);
+}
