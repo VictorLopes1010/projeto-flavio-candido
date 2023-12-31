@@ -41,7 +41,8 @@
 .header-cont-mobile .links-header{
   display: flex;
   flex-direction: column;
-  color: white
+  color: white;
+  width: 100%;
 }
 .header-cont-mobile .links-header a{
   margin: 10px 0 10px 5px;
