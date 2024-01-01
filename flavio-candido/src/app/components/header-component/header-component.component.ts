@@ -39,7 +39,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
 
   tamanhoTela(){
-    console.log(MethodsUtils.getSizePage())
     return MethodsUtils.getSizePage();
   }
 
