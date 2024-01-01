@@ -112,3 +112,9 @@
 .itens-service-mobile-cont{
   padding-bottom: 8px;
 }
+.itens-service-mobile-cont {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+}
