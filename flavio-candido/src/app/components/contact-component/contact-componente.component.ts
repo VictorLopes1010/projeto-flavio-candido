@@ -11,7 +11,7 @@ export class ContactComponent implements OnInit{
 
   nome: string = ''
   mensagem: string = ''
-  numero: string = "+55 31 99393-0770"
+  numero: string = "5531993930770"
   ngOnInit(): void {
 
   }
@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit{
 
   construirLink(): string {
     const mensagemCodificada = encodeURIComponent(`Olá sou ${this.nome}, ${this.mensagem}`);
-    return `https://api.whatsapp.com/send?phone=${this.numero}&text=${mensagemCodificada}`;
+    return `https://wa.me//${this.numero}?text=${mensagemCodificada}`;
   }
 
   enviarParaWpp(link: string) {
