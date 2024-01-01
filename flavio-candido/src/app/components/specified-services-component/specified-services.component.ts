@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { MethodsUtils } from "src/app/Methods/Methods.utils";
 @Component({
  selector: 'app-specified-services',
  templateUrl: './specified-services.component.html',
@@ -206,6 +207,10 @@ export class SpecifiedServices implements OnInit{
     const randomIndex = Math.floor(Math.random() * this.services.length);
     const randomService = this.services[randomIndex];
     this.toggleServicesList(randomService);
+  }
+
+  tamanhoTela(){
+    return MethodsUtils.getSizePage()
   }
 
 }
