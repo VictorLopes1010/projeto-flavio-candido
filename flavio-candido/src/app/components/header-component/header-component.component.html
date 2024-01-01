@@ -17,7 +17,7 @@
   <div class="header-cont-mobile">
     <div class="header-mobile">
       <div (click)="hideMobileHeader()" style="display: flex; justify-content: flex-end; color: white;">
-        <mat-icon class="material-symbols-outlined">close</mat-icon>
+        <mat-icon style="margin: 5px;" class="material-symbols-outlined">close</mat-icon>
       </div>
       <div class="links-header">
         <a *ngFor="let item of linksHeader" href="#{{item.targetId}}"> - {{item.nome}}</a>

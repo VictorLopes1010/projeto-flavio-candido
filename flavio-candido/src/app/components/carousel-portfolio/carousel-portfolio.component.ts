@@ -24,10 +24,16 @@ export class CarouselPortfolioComponent {
         items: 1
       },
       740: {
-        items: 2
+        items: 1
+      },
+      850: {
+        items: 1
       },
       940: {
         items: 2
+      },
+      1001: {
+        items: 3
       },
     },
     nav: true
