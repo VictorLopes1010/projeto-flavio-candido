@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { MethodsUtils } from "src/app/Methods/Methods.utils";
 
 
 @Component({
@@ -19,7 +20,9 @@ export class MainPage implements OnInit {
 
   }
 
-
+  tamanhoTela(){
+    return MethodsUtils.getSizePage()
+  }
 
   construirLink(): string {
     const mensagemCodificada = encodeURIComponent(this.mensagem);
