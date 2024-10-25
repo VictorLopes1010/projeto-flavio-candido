@@ -1,4 +1,4 @@
-# Escritório de Engenharia Elétrica - Single Page Application (SPA) 
+# Escritório de Engenharia Elétrica e Civil - Single Page Application (SPA) 
 
 Bem-vindo ao repositório do projeto de uma SPA para um escritório de engenharia elétrica. Esta SPA foi desenvolvida usando o framework Angular e tem como objetivo mostrar os projetos, os serviços prestados, parcerias e informações de contato do escritório.
 
