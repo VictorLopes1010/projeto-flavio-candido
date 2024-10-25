@@ -7,7 +7,7 @@
   </div>
   <app-intro-main-page id="inicio"></app-intro-main-page>
   <app-our-services id="servicos"></app-our-services>
-  <app-specified-services></app-specified-services>
+  <app-specified-services *ngIf="tamanhoTela() >= 1400"></app-specified-services>
   <app-portfolio-component id="portfolio"></app-portfolio-component>
   <app-partnership-component id="parceiros"></app-partnership-component>
   <app-contact-component id="contato"></app-contact-component>
